@@ -5,6 +5,7 @@
   "homepage": "https://github.com/hihiro/cicd-test",
   "scripts": {
     "dev": "vite",
+    "ci": "npm i & npm run build",
     "build": "vite build",
     "preview": "vite preview"
   },
